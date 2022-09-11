@@ -1,0 +1,151 @@
+.page {
+  min-width: 1020px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  background-color: #161616;
+}
+
+.header {
+  min-height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.logo {
+  color: #e0d360;
+  text-decoration: none;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  font-size: 35px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
+
+.header__menu-links {
+  list-style: none;
+  width: 25, 4%;
+  display: flex;
+}
+
+.header__menu-link:hover {
+  color: #D9B346
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 50px;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+}
+
+.section-title {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 37px;
+  max-width: 79%;
+}
+
+.section-subtitle {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #F8F8F8;
+  max-width: 78%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.video {
+  margin: 35px auto 130px;
+  height: 441px;
+  width: 975px;
+  border: 4px solid #D9B346;
+  border-radius: 10px;
+  background-image: url(../images/golden_pillow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features {
+  background-image: url(../images/Vector.svg);
+  background-position: center;
+}
+
+.two-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.two-columns__brief {
+  font-family: 'Open Sans';
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  max-width: 600px;
+  margin: 0;
+  width: 44%;
+}
+
+.span__accent {
+  color: #D9B346;
+  display: inline-block;
+}
+
+.two-columns__text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.two-columns__list-item {
+  color: white;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 400px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.two-columns__img {
+  width: 50px;
+  padding-right: 30px;
+}
+
+.two-columns__subtitle {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.35px;
+}
+
+.logo_place_footer {
+  display: none;
+}
