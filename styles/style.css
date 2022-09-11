@@ -154,6 +154,7 @@
   list-style: none;
   width: 82%;
   margin: 70px auto 20px;
+  padding: 0;
 }
 
 .table__cell {
