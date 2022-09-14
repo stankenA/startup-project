@@ -16,16 +16,16 @@
 
 <body class="page">
   <header class="header">
-    <div class="header__flex">
-      <a href="#" class="logo logo_place_header"><img
+    <div class="header__container">
+      <a href="./index.html" class="logo logo_place_header"><img
           src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_belyy.png" alt="Лого ИТМО" class="logo__img"></a>
-      <nav class="header__menu">
-        <ul class="header__menu-links">
-          <li><a href="#" class="header__menu-link">О нас</a></li>
-          <li><a href="#" class="header__menu-link">Продукт</a></li>
-          <li><a href="#" class="header__menu-link">Потребители</a></li>
-          <li><a href="#" class="header__menu-link">Команда</a></li>
-          <li><a href="#" class="header__menu-link">Связь</a></li>
+      <nav class="menu__container">
+        <ul class="menu__links">
+          <li><a href="#about" class="menu__link">О нас</a></li>
+          <li><a href="#features" class="menu__link">Продукт</a></li>
+          <li><a href="#partners" class="menu__link">Потребители</a></li>
+          <li><a href="#team" class="menu__link">Команда</a></li>
+          <li><a href="./form.html" class="menu__link">Связь</a></li>
         </ul>
       </nav>
     </div>
@@ -35,17 +35,17 @@
         <p class="section-subtitle header__subtitle">
           Мега <span class="span__accent">первоклассная</span> упаковка для таблетосов, нужно что-то нормальное написать
         </p>
-        <a href="./form.html" class="header__button">
+        <a href="./form.html" class="button">
           Связаться с нами
         </a>
       </div>
     </div>
   </header>
   <main class="content">
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__columns">
         <div class="about__prototype">
-          <img src="./images/prototype.jpg" alt="Фото чёрной упаковки" class="about__prototype-img">
+          <img src="./images/prototype.png" alt="Фото чёрной упаковки" class="about__prototype-img">
         </div>
         <div class="about__column">
           <h2 class="about__header">BioBlack</h2>
@@ -67,8 +67,8 @@
         </div>
       </div>
     </section>
-    <section class="features">
-      <h2 class="section-title">Здоровье без ущерба окружающей среде
+    <section class="features" id="features">
+      <h2 class="section-title">Здоровье без ущерба <span class="span__accent">окружающей среде</span>
       </h2>
       <p class="section-subtitle">
         Удобно. Практично. Безопасно.
@@ -128,29 +128,79 @@
       </div>
       <!-- <img src="./images/background-vector.svg" alt="Задний фон для секции" class="features__img"> -->
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
       <h2 class="section-title">Нас <span class="span__accent">выбирают</span></h2>
       <p class="section-subtitle">
-        Партнёры ИТМО, что-то тоже написать вкратце (либо вообще убрать)
+        Потенциальные клиенты
       </p>
       <ul class="table">
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
+        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-hor-.png">
         </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
+        <li class="table__cell"><img src="https://r-pharm.com/upload/iblock/500/logo_ru.png">
         </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
+        <li class="table__cell"><img src="./images/gerofarm.png">
         </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
+        <li class="table__cell"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Biocad_Logo.svg/1200px-Biocad_Logo.svg.png">
         </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
-        </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
-        </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
-        </li>
-        <li class="table__cell"><img src="https://innovaplus.ru/wp-content/uploads/2022/04/innova-plus-logo-white.png">
         </li>
       </ul>
+      <ul class="table">
+        <li class="table__cell"><img src="https://toplogos.ru/images/logo-vertex.png">
+        </li>
+        <li class="table__cell"><img src="https://alllogos.ru/images/logotip-evalar.png">
+        </li>
+        <li class="table__cell"><img src="https://www.generium.ru/images/logo2.png">
+        </li>
+        <li class="table__cell"><img src="https://www.tadviser.ru/images/2/2c/Синтез_курган_лого.png">
+        </li>
+      </ul>
+    </section>
+    <section class="team" id="team">
+      <h2 class="section-title">Наша команда</h2>
+      <div class="team__block">
+        <div class="team__row">
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+        </div>
+        <div class="team__row">
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+          <div class="team__member">
+            <img src="./images/artyom.jpg" alt="Фото члена команды" class="team__member-photo">
+            <p class="team__member-name">
+              Фамилия Имя
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
     <footer class="footer">
       <div class="footer__columns">

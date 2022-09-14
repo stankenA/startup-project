@@ -15,41 +15,53 @@
 
 <body class="page">
   <header class="header">
-    <div class="header__flex">
-      <a href="#" class="logo logo_place_header"><img
+    <div class="header__container">
+      <a href="./index.html" class="logo logo_place_header"><img
           src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_belyy.png" alt="Лого ИТМО" class="logo__img"></a>
-      <nav class="header__menu">
-        <ul class="header__menu-links">
-          <li><a href="#" class="header__menu-link">О нас</a></li>
-          <li><a href="#" class="header__menu-link">Продукт</a></li>
-          <li><a href="#" class="header__menu-link">Потребители</a></li>
-          <li><a href="#" class="header__menu-link">Команда</a></li>
-          <li><a href="#" class="header__menu-link">Связь</a></li>
+      <nav class="menu__container">
+        <ul class="menu__links">
+          <li><a href="./index.html#about" class="menu__link">О нас</a></li>
+          <li><a href="./index.html#features" class="menu__link">Продукт</a></li>
+          <li><a href="./index.html#partners" class="menu__link">Потребители</a></li>
+          <li><a href="./index.html#team" class="menu__link">Команда</a></li>
+          <li><a href="./form.html" class="menu__link">Связь</a></li>
         </ul>
       </nav>
     </div>
-    <main class="content">
-
-    </main>
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <a href="#" class="logo logo_place_footer"><img
-              src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_belyy.png" alt="Лого ИТМО"
-              class="logo__img"></a>
-          <p class="footer__author">&copy; Команда BioBlack</p>
-        </div>
-        <nav class="footer__column footer__column_content_social">
-          <h3 class="footer__column-heading">Контакты</h3>
-          <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте"
-                  class="footer__social-icon">ВКонтакте</a></li>
-            <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg"
-                  alt="Иконка Instagram" class="footer__social-icon">Instagram</a></li>
-          </ul>
-        </nav>
+  </header>
+  <main class="content">
+    <section class="contacts">
+      <div class="contact__container">
+        <h2 class="section-title">Свяжитесь с нами</h2>
+        <form method="post" action="#" id="contact" class="contact__form">
+          <input type="text" name="review_name" placeholder="Ваше имя" class="contact__input">
+          <input type="text" name="review_email" placeholder="Ваш e-mail" class="contact__input">
+          <input type="tel" name="review_email" placeholder="Ваш телефон" class="contact__input">
+          <textarea name="review_text" placeholder="Написать комментарий"
+            class="contact__input contact__input_txt"></textarea>
+          <input type="submit" value="Отправить" class="button button_contact">
+        </form>
       </div>
-    </footer>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__column footer__column_content_copyright">
+        <a href="#" class="logo logo_place_footer"><img
+            src="https://itmo.ru/file/pages/213/logo_osnovnoy_russkiy_belyy.png" alt="Лого ИТМО" class="logo__img"></a>
+        <p class="footer__author">&copy; Команда BioBlack</p>
+      </div>
+      <nav class="footer__column footer__column_content_social">
+        <h3 class="footer__column-heading">Контакты</h3>
+        <ul class="footer__column-links">
+          <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте"
+                class="footer__social-icon">ВКонтакте</a></li>
+          <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg"
+                alt="Иконка Instagram" class="footer__social-icon">Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </body>
 
 </html>
